@@ -185,4 +185,8 @@ Conversations are automatically persisted with clean metadata:
 ---
 
 ## 📄 License
+<<<<<<< HEAD
 This project is developed for educational and research purposes under the Agentic AI Lab Examination.
+=======
+This project is developed for educational and research purposes under the Agentic AI Lab Examination.
+>>>>>>> 22e7a36c2ffa25f8393e33c6cca38f9767a5b3c2
