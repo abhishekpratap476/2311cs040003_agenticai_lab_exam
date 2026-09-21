@@ -1,0 +1,19 @@
+{
+  "filename": "Write_hello_in_rust.json",
+  "title": "Write hello in rust",
+  "created_at": "2026-09-21T10:51:06.715440",
+  "updated_at": "2026-09-21T10:51:11.455752",
+  "persona": "Default",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Write hello in rust",
+      "timestamp": "2026-09-21T10:51:11.455752"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello in Rust can be written in several ways. Here are a few examples:\n\n### Using the `println!` Macro\n\n```rust\nfn main() {\n    println!(\"Hello\");\n}\n```\n\n### Using String Literals\n\n```rust\nfn main() {\n    let message = \"Hello\";\n    println!(\"{}\", message);\n}\n```\n\n### Using a String Variable\n\n```rust\nfn main() {\n    let message = String::from(\"Hello\");\n    println!(\"{}\", message);\n}\n```\n\n### Using the `fmt!` Macro\n\n```rust\nfn main() {\n    println!(\"Hello\");\n}\n```\n\nThis is the most idiomatic way to write a \"Hello\" in Rust, as it uses the `println!` macro which is a powerful tool for formatting strings.\n\n### Using a Function to Print the Message\n\n```rust\nfn print_message(message: &str) {\n    println!(\"{}\", message);\n}\n\nfn main() {\n    print_message(\"Hello\");\n}\n```\n\nThis example shows how to pass a string to a function and have it printed.",
+      "timestamp": "2026-09-21T10:51:11.455752"
+    }
+  ]
+}
